@@ -1,0 +1,229 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAVIGATION BAR CSS */
+#navbar{
+    display: flex;
+    align-items: center;
+    /* position: sticky;
+    top: 0px; */
+}
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+   
+}
+
+/* Navigation bar list styling */
+#navbar ul{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+#navbar ul li a:hover{
+    color:white;
+    background-color:rgb(218, 117, 117);
+}
+/* TOTAL NAVBAR-LIST STYLING COMPLETED HERE */
+
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background:url('../IMAGES/jpg.2.jpg') no-repeat center center/cover;
+    height: 643px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    /* border-radius:  0px 0px 22px 22px; */
+}
+#home h1{
+    color: black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.9rem;
+
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+h1.h-primary-center1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+/* services of jay rose nursery SECTION */
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+border: 2px solid brown;
+padding: 34px;
+margin: 2px 55px;
+border-radius: 28px;
+background: rgb(204, 191, 191);
+margin-bottom: 20px;
+margin: 33px 7px;
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+    /* width: -webkit-fill-available; */
+}
+h2.h-secondary-center{
+    
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 21px;
+    /* display: block; */
+
+}
+#services-container .h-primary-center{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+/* CLIENT SECTION */
+#client-section{
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../IMAGES/back-client.jfif') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    /* border-radius: 22px; */
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#clients .client-item img{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 23px;
+    opacity: 0.8;
+    border-radius: 24px;
+}
+.client-item{
+    padding: 34px;
+}
+
+/* CLIENT SECTION COMPLETES HERE */
+
+/* CONTACT SECTION  STARTS*/
+#conact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('../IMAGES/contact-background.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    
+    font-family: 'Bree Serif', serif;
+}
+h1.h-primary-center2{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+/* last copyrights section/footer */
+
+.center{
+    text-align: center;
+    /* background-color: black; */
+    font-family: 'Bree Serif', serif;
+    font-size: 23px;
+    display: block;
+    
+}
